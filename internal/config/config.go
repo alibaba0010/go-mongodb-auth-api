@@ -39,7 +39,7 @@ func LoadConfig() (*Config, error) {
 	viper.AutomaticEnv()
 
 	// Set defaults
-	viper.SetDefault("server.port", "8080")
+	viper.SetDefault("server.port", "3080")
 	viper.SetDefault("server.mode", "debug")
 	viper.SetDefault("mongodb.uri", "mongodb://localhost:27017")
 	viper.SetDefault("mongodb.database", "app_db")

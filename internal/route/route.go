@@ -14,7 +14,7 @@ import (
 	"gin-mongo-aws/internal/middleware"
 	"gin-mongo-aws/internal/repository"
 	"gin-mongo-aws/internal/service"
-	"gin-mongo-aws/pkg/logger"
+	"gin-mongo-aws/internal/logger"
 
 	"github.com/gin-gonic/gin"
 	"go.uber.org/zap"
