@@ -1,4 +1,4 @@
-# Gin Mongo AWS Project
+# Gin MongoDB AWS Project
 
 This is a production-ready Go project using Gin, MongoDB, and Redis, designed to be deployed on AWS.
 
@@ -30,9 +30,11 @@ This is a production-ready Go project using Gin, MongoDB, and Redis, designed to
 
 1.  **Prerequisites**: Go 1.23+, Docker, Docker Compose.
 2.  **Run with Docker Compose**:
+
     ```bash
     docker-compose up --build
     ```
+
     The API will be available at `http://localhost:8080`.
 
 3.  **Run Manually**:
@@ -54,7 +56,7 @@ This is a production-ready Go project using Gin, MongoDB, and Redis, designed to
     - Runtime: Go 1.x
     - Build command: `go build -o main ./cmd/api`
     - Start command: `./main`
-    - Port: 8080
+    - Port: 3080
 5.  Set environment variables in the App Runner configuration:
     - `MONGODB_URI`: Connection string to your MongoDB Atlas or DocumentDB.
     - `REDIS_ADDR`: Address of your ElastiCache Redis.
