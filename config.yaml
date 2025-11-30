@@ -1,0 +1,15 @@
+server:
+  port: "3080"
+  mode: "debug"
+
+mongodb:
+  uri: "mongodb://mongo:27017"
+  database: "app_db"
+
+redis:
+  addr: "redis:6379"
+  password: ""
+  db: 0
+
+aws:
+  region: "us-east-1"
